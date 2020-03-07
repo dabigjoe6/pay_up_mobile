@@ -4,7 +4,7 @@ import { Avatar } from 'react-native-elements';
 
 export default function TransactionCard() {
 	return (
-		<View style={{ flexDirection: 'row', justifyContent: 'space-between', padding: 10 }}>
+		<View style={{ flexDirection: 'row', justifyContent: 'space-between', padding: 10, elevation: 1, marginVertical: 10, borderRadius: 4, paddingVertical: 20 }}>
 			<View style={{ flexDirection: 'row' }}>
 				<Avatar rounded icon={{ name: 'home' }} />
 				<View style={{ marginLeft: 10 }}>
