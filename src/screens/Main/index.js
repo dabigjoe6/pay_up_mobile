@@ -28,6 +28,10 @@ export default function Main() {
 				<Text style={{ fontSize: 30, fontWeight: '700', color: '#515E69' }}>Hi,</Text>
 				<Text style={{ fontSize: 30, fontWeight: '700', color: '#515E69' }}>Joseph</Text>
 			</View>
+			<View style={{ flexDirection: 'row' }}>
+				<Text style={styles.section_text}>Current IMSI: </Text>
+				<Text style={[styles.section_text, { color: '#2886FF' }]}>12345567888899</Text>
+			</View>
 			<Text style={styles.section_text}>Balance</Text>
 			<View style={{ marginVertical: 10, flexDirection: 'row', alignSelf: 'center', alignItems: 'flex-end' }}>
 				<View style={{ flexDirection: 'row', alignItems: 'center', marginRight: 15 }}>
