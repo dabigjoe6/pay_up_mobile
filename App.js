@@ -1,5 +1,5 @@
 import React from 'react';
-import { Main, TopUp, Transactions, TransactionDetails, Welcome, SignUp, LogIn } from './src/screens';
+import { Main, TopUp, Transactions, TransactionDetails, Welcome, SignUp, LogIn, ReqId, Transfer } from './src/screens';
 export default function App() {
 	return (
 		// <TopUp />
