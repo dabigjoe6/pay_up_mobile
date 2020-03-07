@@ -1,8 +1,10 @@
 import React from 'react';
-import Main from './src/screens/Main';
+import { Main, TopUp } from './src/screens';
 
+import { Text } from 'react-native';
 export default function App() {
 	return (
-		<Main />
+		<TopUp />
+		// <Main />
 	)
 }
